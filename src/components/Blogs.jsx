@@ -4,21 +4,21 @@ import { useEffect, useState } from "react";
 function Blogs() {
   const blogs = [
     {
+      src: "/images/blogs/blog-0.png",
+      title:
+        "The Importance of Effective Spend Management for Businesses",
+      des: "Effective spend management is a critical aspect of running a successful business. It involves strategically planning, monitoring, and controlling expenses to optimize financial resources. In this blog post... ",
+    },
+    {
       src: "/images/blogs/blog-1.png",
       title:
-        "Boosting Productivity: 5 Effective Strategies for Time Management",
-      des: "Discover proven strategies and practical tips to optimize your time management skills. Learn how to prioritize tasks, minimize distractions, and make the most of your valuable time... ",
+        "Unlocking Business Growth with SaaS Management ",
+      des: "Software-as-a-Service (SaaS) applications have become integral to the success of modern businesses. However, effectively managing multiple SaaS subscriptions and ensuring their optimal utilization can be a challenge..... ",
     },
     {
-      src: "/images/blogs/blog-2.png",
-      title:
-        "The Ultimate Guide to Social Media Marketing: Driving Business Growth",
-      des: "Dive into the world of social media marketing with this comprehensive guide. Explore effective strategies, platforms, and content creation techniques to harness the... ",
-    },
-    {
-      src: "/images/blogs/blog-3.png",
-      title: "Cybersecurity 101: Protecting Your Business in a Digital World",
-      des: "Enhance your understanding of cybersecurity fundamentals and learn how to safeguard your business from cyber threats. Explore essential practices such as data encryption... ",
+      src: "/images/blogs/blog-4.png",
+      title: "Cost Optimization and Analysis",
+      des: "Cost optimization and analysis are paramount for businesses aiming to enhance profitability and drive efficiency. With Easenode Tech's comprehensive solutions, businesses can gain deeper insights into their software spend, negotiate better deals with vendors, track expenses in real-time.... ",
     },
   ];
 
