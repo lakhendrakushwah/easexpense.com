@@ -123,7 +123,7 @@ function Footer() {
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/customer">
                   Login
                 </a>
               </li>
