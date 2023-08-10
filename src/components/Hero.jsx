@@ -15,7 +15,7 @@ function Hero() {
           </p>
           <div className="flex gap-3">
             <Link
-              to="https://app.easenode.com/"
+              to="https://app.easexpense.com/"
               className="hover:text-main inline-block text-md  lg:text-lg font-medium hover:bg-transparent bg-main text-light border border-main rounded-xl py-5 px-8 transition-all duration-300"
             >
               Get Started

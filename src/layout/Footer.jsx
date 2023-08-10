@@ -123,7 +123,7 @@ function Footer() {
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="https://app.easenode.com/login">
+                <a className="text-[#666] text-sm font-poppins" href="https://app.easexpense.com/login">
                   Login
                 </a>
               </li>
