@@ -24,7 +24,7 @@ function MarketPlace() {
     },
     {
       src: "/images/marketplaces/marketplace-5.png",
-      title: "HubSpot",
+      title: "Zoho",
       des: "A popular video conferencing and online meeting platform that enables seamless ",
     },
     {
@@ -39,7 +39,7 @@ function MarketPlace() {
     },
     {
       src: "/images/marketplaces/marketplace-8.png",
-      title: "ZOH8",
+      title: "Hubspot",
       des: "A popular video conferencing and online meeting platform that enables seamless ",
     },
   ];
