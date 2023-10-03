@@ -43,7 +43,11 @@ function Help() {
                 alt={blog.title}
               />
               <h2 className="text-2xl font-semibold pb-6">{blog.title}</h2>
-              <p className="text-[#999999] pb-6">{blog.des}</p>
+              <p
+                className="text-[#999999] pb-6"
+              >
+                {blog.des}
+              </p>
               <Link to={blog.url} className="text-main block text-center text-sm font-medium hover:bg-main hover:text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
                 Learn More
               </Link>

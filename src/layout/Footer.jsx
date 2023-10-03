@@ -7,7 +7,7 @@ function Footer() {
   const [footerThree, setFooterThree] = useState(false);
   return (
     <div className="bg-[#E6E6E6]">
-      <div className="container py-8 md:py-24 flex flex-col md:flex-row justify-between">
+      <div className="container pt-2 pb-0 md:pt-6 md:pb-0 flex flex-col md:flex-row justify-between">
         <div className="flex-1 md:w-1/2 flex flex-col ">
           <h3 className="text-3xl font-bold pb-2">EASEXPENSE</h3>
 
