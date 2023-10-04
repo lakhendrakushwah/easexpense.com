@@ -34,17 +34,17 @@ function Help() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 lg:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2    lg:grid-cols-3 gap-3 md:gap-6 lg:gap-10 bg">
           {blogs.map((blog, i) => (
-            <div key={i} className="bg-light rounded-3xl p-6">
+            <div key={i} className="bg-white rounded-3xl p-6 relative">
               <img
                 className="w-full rounded-2xl pb-4"
                 src={blog.src}
                 alt={blog.title}
               />
-              <h2 className="text-2xl font-semibold pb-6">{blog.title}</h2>
-              <p className="text-[#999999] pb-6">{blog.des}</p>
-              <Link to={blog.url} className="text-main block text-center text-sm font-medium hover:bg-main hover:text-light border border-main rounded-xl py-5 px-10 transition-all duration-300">
+              <h2 className="text-2xl font-semibold pb-4">{blog.title}</h2>
+              <p className="text-[#999999] pb-6 mb-8 md:mb-5 lg:mb-8">{blog.des}</p>
+              <Link to={blog.url} className="text-main block text-center text-sm font-medium hover:bg-main hover:text-light border border-main rounded-xl py-5 transition-all duration-300 absolute bottom-0 w-11/12">
                 Learn More
               </Link>
             </div>
