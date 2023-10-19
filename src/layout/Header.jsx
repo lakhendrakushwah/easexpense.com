@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { useState } from 'react'
+import { Link, NavLink } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function Header() {
-  const [toggleBar, setToggleBar] = useState(false);
+  const [toggleBar, setToggleBar] = useState(false)
   return (
     <header className="bg-transparent">
       <nav className="container h-16 flex justify-between items-center gap-1 lg:gap-10 ">
@@ -17,10 +17,10 @@ function Header() {
           </Link>
         </div>
 
-        <ul className="hidden lg:flex gap-3 lg:gap-20 items-center font-poppins font-semibold">
+        <ul className="hidden lg:flex gap-3 lg:gap-20 items-center font-poppins font-semibold ">
           <li>
             <NavLink
-              className="text-[#999999] hover:text-secondary transition-all"
+              className="text-[#999999] hover:text-black transition-all"
               to="/"
             >
               Home
@@ -29,7 +29,7 @@ function Header() {
 
           <li>
             <HashLink
-              className="text-[#999999] hover:text-secondary transition-all"
+              className="text-[#999999] hover:text-black transition-all"
               to="/#blog-section-id"
               smooth
             >
@@ -39,16 +39,16 @@ function Header() {
 
           <li>
             <HashLink
-              className="text-[#999999] hover:text-secondary transition-all"
-              to="/"
+              className="text-[#999999]  hover:text-black  transition-all"
+              to="/about"
             >
               About us
             </HashLink>
           </li>
-          
+
           <li>
             <NavLink
-              className="text-[#999999] hover:text-secondary transition-all"
+              className="text-[#999999]  hover:text-black transition-all"
               to="contact"
             >
               Contact us
@@ -56,14 +56,22 @@ function Header() {
           </li>
         </ul>
 
-        <div className="flex gap-2 md:gap-5">
+        <div className="flex gap-2 md:gap-5  ">
           <ul className=" gap-5 font-medium font-roboto hidden lg:flex">
-          <li>
-              <Link to="https://app.easexpense.com/login" className="text-main ">Sign In</Link>
+            <li>
+              <Link
+                to="https://app.easexpense.com/login"
+                className="text-main "
+              >
+                Sign In
+              </Link>
             </li>
 
             <li>
-              <Link to="https://app.easexpense.com/login" className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4">
+              <Link
+                to="https://app.easexpense.com/login"
+                className="bg-[#D0EDFB] text-main rounded-lg py-3 px-4"
+              >
                 Free trial
               </Link>
             </li>
@@ -104,7 +112,7 @@ function Header() {
                 About us
               </Link>
             </li>
-            <li>
+            <li className="hover:text-black">
               <Link to="contact" onClick={() => setToggleBar(!toggleBar)}>
                 Contact us
               </Link>
@@ -133,7 +141,7 @@ function Header() {
         )}
       </nav>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
