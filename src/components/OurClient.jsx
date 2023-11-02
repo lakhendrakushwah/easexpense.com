@@ -8,13 +8,13 @@ import profile from '../assets/profile.png'
 
 const messages = [
   {
-    id: 'google',
-    name: 'Google ',
+    id: 'kratikal',
+    name: 'Kratikal ',
     img: profile,
 
     Position: 'CEO',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam velit adipisci dicta. Similique repudiandae reprehenderit aliquam explicabo iure, ipsam repellat tenetur accusantium nisi, eum dignissimos quidem, perferendis nihil vitae.Lorem ipsum dolor',
+      "Easexpense proactively manages our SaaS contracts and reporting, making our lives so much easier. Compared to similar products we've used in the past, the customer experience with Spendflo has been nothing short of delightful. We no longer have to worry about getting the best SaaS deals - it's all taken care of on auto-pilot!",
   },
   {
     id: 'zoho',
@@ -27,7 +27,7 @@ const messages = [
   },
   {
     id: 'loom',
-    name: 'lOOm',
+    name: 'Loom',
     Position: 'co-founder',
     img: profile,
 

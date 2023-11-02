@@ -27,7 +27,7 @@ function TermsAndConditions() {
     return (
         <div>
 
-            <div className=" h-80 bg-[url('https://healthyresumes.com/wp-content/uploads/2022/10/LinkedIn-Background-Photo-47-1.webp')]" bd>
+            <div className="mt-10 h-80 bg-[url('https://healthyresumes.com/wp-content/uploads/2022/10/LinkedIn-Background-Photo-47-1.webp')]" bd>
                 <h1 className=" text-center text-6xl pt-20 text-slate-50">Terms and Conditions</h1>
             </div>
             <div className="shadow-2xl p-10 mb-10 mx-40 -mt-40 bg-[#fff]">

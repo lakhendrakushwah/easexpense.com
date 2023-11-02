@@ -3,15 +3,15 @@ import { slideIn, textVariant } from '../utils/motion'
 
 function Help() {
   const blogs = [
-    'We analyze your SaaS stack, and show you what you could be saving.',
-    'Your team requests and approves new tools using our dashboard and Slack app',
-    'We get you the best deals and terms on your chosen software based on your needs.',
-    'We automate IT clearance, legal approval and compliance processes.',
-    'Your team starts using the tool!',
+    'We analyze your SaaS requirments, and show you the pricing and discount from marketvalue',
+    'Your team requests for the purchase of the required software through dashboard',
+    'We get you the best and negotiable pricing on your chosen software based on your requirments.',
+    'After succesfull purchase you can manage and view all your subscriptions.',
+    'You can renew, cancel your services from the dashboard any time',
   ]
   return (
-    <div className="bg-[#FAFAFA] py-10 md:py-20">
-      <div className="container">
+    <div className="bg-main py-10 md:py-20">
+      <div className="container" >
         <motion.div
           variants={textVariant(0.25)}
           initial="hidden"
@@ -19,10 +19,10 @@ function Help() {
           viewport={{ once: true }}
           className="mb-8 flex flex-col items-center gap-5 md:mb-20"
         >
-          <h2 className="text-[24px] md:text-[40px] font-bold ">
+          <h2 className="text-[24px] md:text-[40px] font-bold " style={{color: 'white'}}>
             Here&#39;s how it works
           </h2>
-          <p className="text-[#999999] text-sm md:text-base px-2 max-w-prose md:w-1/2">
+          <p className="text-[#ffffff] text-m md:text-base px-2 max-w-prose md:w-1/2">
             Driving your success through tailored solutions and unmatched
             expertise
           </p>
