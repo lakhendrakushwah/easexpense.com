@@ -1,25 +1,27 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from 'react'
 
 function Footer() {
-  const [footerOne, setFooterOne] = useState(false);
-  const [footerTwo, setFooterTwo] = useState(false);
-  const [footerThree, setFooterThree] = useState(false);
+  const [footerOne, setFooterOne] = useState(false)
+  const [footerTwo, setFooterTwo] = useState(false)
+  const [footerThree, setFooterThree] = useState(false)
   return (
-    <div className="bg-[#E6E6E6]">
-      <div className="container pt-2 pb-0 md:pt-6 md:pb-0 flex flex-col md:flex-row justify-between">
-        <div className="flex-1 md:w-1/2 flex flex-col ">
+    <div className="bg-[#a1a1a128] py-10 m-5 rounded-md">
+      <div className="container pt-2 pb-0 md:pt-6 md:pb-0 flex flex-col md:flex-row justify-between gap-10">
+        <div className="flex-1 md:w-1/2 flex flex-col gap-2 md:gap-5 ">
           <h3 className="text-3xl font-bold pb-2">EASEXPENSE</h3>
 
-          <p className="text-sm text-[#999999] pb-8 w-auto md:max-w-prose">
+          <p className="text-sm text-[#727272] pb-8 w-auto md:max-w-prose">
             Easenode Tech Private Limited is a dynamic and innovative technology
-            company focused on offering a centralized platform for managing
-            your SaaS subscriptions and expenses.
+            company focused on offering a centralized platform for managing your
+            SaaS subscriptions and expenses.
           </p>
 
-          <ul className="flex gap-7 pb-14">
+          <ul className="flex gap-7 ">
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100093470447814" target="blank">
+              <a
+                href="https://www.facebook.com/profile.php?id=100093470447814"
+                target="blank"
+              >
                 <span className="text-[#999999] text-3xl">
                   <i className="fab fa-facebook"></i>
                 </span>
@@ -27,7 +29,10 @@ function Footer() {
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/company/easenode-tech/about" target="blank">
+              <a
+                href="https://www.linkedin.com/company/easenode-tech/about"
+                target="blank"
+              >
                 <span className="text-[#999999] text-3xl">
                   <i className="fa-brands fa-linkedin"></i>
                 </span>
@@ -43,7 +48,10 @@ function Footer() {
             </li>
 
             <li>
-              <a href="https://www.youtube.com/channel/UCiIGK5khsdooj0vfEvc_7bA" target="blank">
+              <a
+                href="https://www.youtube.com/channel/UCiIGK5khsdooj0vfEvc_7bA"
+                target="blank"
+              >
                 <span className="text-[#999999] text-3xl">
                   <i className="fa-brands fa-youtube"></i>
                 </span>
@@ -64,8 +72,8 @@ function Footer() {
                 <i
                   className={`${
                     footerOne
-                      ? "fa-solid fa-angle-up"
-                      : "fa-solid fa-angle-down"
+                      ? 'fa-solid fa-angle-up'
+                      : 'fa-solid fa-angle-down'
                   }`}
                 ></i>
               </span>
@@ -73,11 +81,14 @@ function Footer() {
 
             <ul
               className={`flex-col gap-5 md:flex   ${
-                footerOne ? "flex" : "hidden"
+                footerOne ? 'flex' : 'hidden'
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="https://easexpenses.wordpress.com/">
+                <a
+                  className="text-[#666] text-sm font-poppins"
+                  href="https://easexpenses.wordpress.com/"
+                >
                   Blog
                 </a>
               </li>
@@ -92,7 +103,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/about">
                   About us
                 </a>
               </li>
@@ -110,8 +121,8 @@ function Footer() {
                 <i
                   className={`${
                     footerTwo
-                      ? "fa-solid fa-angle-up"
-                      : "fa-solid fa-angle-down"
+                      ? 'fa-solid fa-angle-up'
+                      : 'fa-solid fa-angle-down'
                   }`}
                 ></i>
               </span>
@@ -119,11 +130,14 @@ function Footer() {
 
             <ul
               className={`flex-col gap-5 md:flex   ${
-                footerTwo ? "flex" : "hidden"
+                footerTwo ? 'flex' : 'hidden'
               }`}
             >
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="https://app.easexpense.com/login">
+                <a
+                  className="text-[#666] text-sm font-poppins"
+                  href="https://app.easexpense.com/login"
+                >
                   Login
                 </a>
               </li>
@@ -138,7 +152,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/about">
                   Team
                 </a>
               </li>
@@ -156,15 +170,15 @@ function Footer() {
                 <i
                   className={`${
                     footerThree
-                      ? "fa-solid fa-angle-up"
-                      : "fa-solid fa-angle-down"
+                      ? 'fa-solid fa-angle-up'
+                      : 'fa-solid fa-angle-down'
                   }`}
                 ></i>
               </span>
             </div>
             <ul
               className={`flex-col gap-5 md:flex   ${
-                footerThree ? "flex" : "hidden"
+                footerThree ? 'flex' : 'hidden'
               }`}
             >
               <li>
@@ -173,12 +187,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/privacyPolicy">
                   Privacy policy
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/termsCondition">
                   Terms of service
                 </a>
               </li>
@@ -192,7 +206,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
