@@ -8,7 +8,7 @@ import Contact from "../pages/Contact";
 import Customer from "../pages/Customer";
 import TermsAndConditions from "../pages/TermsAndConditions"
 import About from "../components/About";
-import PrivacyPolicy from "../pages/Privacy";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 export default function router() {
   return (
@@ -18,8 +18,8 @@ export default function router() {
         <Route path="contact" element={<Contact />} />
         <Route path="customer" element={<Customer />} />
         <Route path="about" element={<About />} />
-        <Route path="privacy" element={<PrivacyPolicy />} />
-        <Route path="terms" element={<TermsAndConditions />} />
+        <Route path="privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="termsCondition" element={<TermsAndConditions />} />
       </Route>
     </Routes>
   )

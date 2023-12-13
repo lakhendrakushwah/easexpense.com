@@ -152,7 +152,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="#">
+                <a className="text-[#666] text-sm font-poppins" href="/about">
                   Team
                 </a>
               </li>
@@ -187,12 +187,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="/privacy">
+                <a className="text-[#666] text-sm font-poppins" href="/privacyPolicy">
                   Privacy policy
                 </a>
               </li>
               <li>
-                <a className="text-[#666] text-sm font-poppins" href="/terms">
+                <a className="text-[#666] text-sm font-poppins" href="/termsCondition">
                   Terms of service
                 </a>
               </li>

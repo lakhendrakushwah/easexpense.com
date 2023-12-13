@@ -5,34 +5,37 @@ import { textVariant, slideIn } from '../utils/motion.js'
 import MessageCard from './helper/MessageCard.jsx'
 import BtnNextPrev from './helper/BtnNextPrev.jsx'
 import profile from '../assets/profile.png'
+import ceo_kratikal from '../assets/ceo_kratikal.png'
+import ceo_getwork from '../assets/ceo_getwork.png'
+import shivani from '../assets/shivani.png'
 
 const messages = [
   {
     id: 'kratikal',
     name: 'Kratikal ',
-    img: profile,
+    img: ceo_kratikal,
 
     Position: 'CEO',
     description:
       "Easexpense proactively manages our SaaS contracts and reporting, making our lives so much easier. Compared to similar products we've used in the past, the customer experience with Spendflo has been nothing short of delightful. We no longer have to worry about getting the best SaaS deals - it's all taken care of on auto-pilot!",
   },
   {
-    id: 'zoho',
-    name: 'ZOHO',
-    Position: 'Manager',
-    img: profile,
+    id: 'getwork',
+    name: 'GetWork',
+    Position: 'Founder',
+    img: ceo_getwork,
 
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam velit adipisci dicta. Similique repudiandae reprehenderit aliquam explicabo iure, ipsam repellat tenetur accusantium nisi, eum dignissimos quidem, perferendis nihil vitae.',
+      'Transparency is crucial in any business relationship. Easexpense provides us with detailed reports and insights into our software usage and spending, allowing us to make informed decisions about our subscriptions. This level of transparency builds trust and ensures that our software investments are aligned with our business goals.',
   },
   {
-    id: 'loom',
-    name: 'Loom',
-    Position: 'co-founder',
-    img: profile,
+    id: 'xgrowth',
+    name: 'X-Growth',
+    Position: 'Manager',
+    img: shivani,
 
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam velit adipisci dicta. Similique repudiandae reprehenderit aliquam explicabo iure, ipsam repellat tenetur accusantium nisi, eum dignissimos quidem, perferendis nihil vitae.',
+      'Managing our software subscriptions used to be a time-consuming and stressful process. Thankfully, Easexpense has lifted that burden off our shoulders. They handle all aspects of software management, leading to significant cost reductions. Their assistance is invaluable, and I am incredibly grateful for their expertise. ',
   },
 ]
 

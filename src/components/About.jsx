@@ -1,4 +1,6 @@
-import profile from '../assets/profile.png'
+import profile1 from '../assets/profile1.png'
+import profile2 from '../assets/profile2.png'
+import profile3 from '../assets/profile3.png'
 export default function About() {
   return (
     <div className="flex flex-col justify-center items-center gap-10 py-16 my-10  ">
@@ -43,7 +45,7 @@ export default function About() {
           they’ve made.
         </p>
       </div>
-      <div className="flex flex-col text-center w-[60%] p-20 gap-20 rounded-lg mt-14">
+      <div className="flex flex-col text-center w-[80%] p-20 gap-20 rounded-lg mt-14">
         <p className="text-3xl mx-10 ">
           We’re a small but experienced team, determined to improve the SaaS
           buying experience.
@@ -51,33 +53,33 @@ export default function About() {
         <div className="flex justify-between items-center">
           <div className="flex flex-col gap-1">
             <img
-              src={profile}
+              src={profile1}
               alt=""
-              width={220}
+              width={320}
               className="rounded-lg mb-7 border-b-8 border-[#D0EDFB]   "
             />
-            <h1>Name</h1>
-            <p>Position</p>
+            <h1>Lakhendra Kushwah</h1>
+            <p>Founder & CEO</p>
           </div>
           <div className="flex flex-col gap-1">
             <img
-              src={profile}
+              src={profile2}
               alt=""
-              width={220}
+              width={320}
               className="rounded-lg mb-7  border-b-8 border-[#D0EDFB]   "
             />
-            <h1>Name</h1>
-            <p>Position</p>
+            <h1>Kaustubh Rai</h1>
+            <p>Founder & CTO</p>
           </div>
           <div className="flex flex-col gap-1">
             <img
-              src={profile}
+              src={profile3}
               alt=""
-              width={220}
+              width={320}
               className="rounded-lg mb-7  border-b-8 border-[#D0EDFB]   "
             />
-            <h1>Name</h1>
-            <p>Position</p>
+            <h1>Mahendra Kushwah</h1>
+            <p>Founder & COO</p>
           </div>
         </div>
       </div>
